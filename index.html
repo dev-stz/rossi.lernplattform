@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rossi Lernplattform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background: url('background.webp') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #6CA525;
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .instructions {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .instructions ol {
+            padding-left: 20px;
+        }
+        .instructions li {
+            margin-bottom: 10px;
+        }
+        .button-container {
+            margin: 30px 0;
+        }
+        .button-grid {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .button-grid a {
+            display: inline-block;
+            width: calc(50% - 10px); /* Adjusts width for two buttons in a row */
+            background-color: #2d694e;
+            color: white;
+            padding: 10px 0;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .button-grid a:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+        .help-section {
+            background-color: #ffeb3b;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            font-size: 1.1em;
+            /* font-weight: bold; */
+            margin: 20px 0;
+        }
+        .help-section details summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .help-section details p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login zur Kurs- bzw. Lernplattform</h1>
+
+        <div class="instructions">
+            <p><strong>So meldest du dich an:</strong></p>
+            <ol>
+                <li>Es gibt 2 Lerngruppen: Diese sind nach Startdatum eingeteilt.</li>
+                <li>Wähle die für dich korrekte Gruppe aus. <strong>Wichtig:</strong> Du kannst dich nur in der richtigen Gruppe einloggen.</li>
+                <li>Klicke auf den Button und los geht's!</li>
+            </ol>
+        </div>
+
+        <div class="button-container">
+            <div class="button-grid">
+                <a href="https://rossi55.e-learning.cc/" target="_blank">Login: Kursstart AB 01.03.2024</a>
+                <a href="https://rossi44.e-learning.cc/" target="_blank">Login: Kursstart VOR 01.03.2024</a>
+            </div>
+        </div>
+
+        <div class="help-section">
+            <details>
+                <summary>Ich kann mich nicht einloggen, was soll ich tun?</summary>
+                <p>Wenn du dich nicht einloggen kannst, überprüfe, ob du in der richtigen Gruppe bist und ob dein Kursstartdatum korrekt ist. Bei weiteren Problemen kontaktiere bitte den Support.</p>
+            </details>
+        </div>
+    </div>
+</body>
+
+</html>
